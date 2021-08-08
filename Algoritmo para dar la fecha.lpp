@@ -1,0 +1,38 @@
+entero ano,mes,dia
+inicio
+
+escriba "					Ingrese una fecha para mostrar----ano/mes/dia"
+llamar nueva_linea
+llamar nueva_linea
+
+	escriba "Ponga el ano con numeros (ejemplo: 2021): "
+	lea ano
+
+		llamar nueva_linea
+		mientras (ano<0) haga
+		escriba "El ano es irreal, ponga un ano valido: "
+		lea ano
+		fin mientras
+	
+	escriba "Ponga el mes con numeros (ejemplo: 11): "
+	lea mes
+	
+		llamar nueva_linea
+		mientras (mes<1) o (mes>12) haga
+		escriba "El numero es irreal, ponga un mes valido: "
+		lea mes
+		fin mientras
+	
+	escriba "Ponga el dia (ejemplo: 21): "
+	lea dia
+	
+		mientras (dia>31) o (dia<0)haga
+		escriba "El dia es irreal, ponga un dia valido: "
+		lea ano
+		fin mientras
+		
+	llamar nueva_linea
+	escriba "La fecha es: ",ano,"/",mes,"/",dia
+
+
+fin

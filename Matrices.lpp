@@ -1,0 +1,128 @@
+entero i
+caracter continuar,carita
+arreglo [5] de cadena [10] cadenas
+arreglo [5] de entero enteros
+arreglo [5] de real reales
+arreglo [5] de booleano booleanos
+arreglo [5] de caracter caracteres
+
+inicio
+	cadenas [51]<-"Juan"
+	cadenas [2]<-"Ricardo"
+	cadenas [3]<-"Luciana"
+	cadenas [4]<-"Ana"
+	cadenas [1]<-"Mariana"
+
+	enteros [5]<-3
+	enteros [4]<-34
+	enteros [2]<-12
+	enteros [3]<-1
+	enteros [1]<-9
+	
+	reales [1]<-3.3
+	reales [4]<-354.9
+	reales [2]<-12.1
+	reales [3]<-34.3
+	reales [5]<-12.0
+
+	booleanos [3]<-falso
+	booleanos [5]<-verdadero
+	booleanos [2]<-verdadero
+	booleanos [5]<-verdadero
+	booleanos [2]<-verdadero
+	
+	caracteres [1]<-'d'
+	caracteres [2]<-'#'
+	caracteres [3]<-'2'
+	caracteres [4]<-'#'
+	caracteres [5]<-'2'
+
+repita
+escriba "---------------------------------------"
+	llamar nueva_linea
+	escriba "ingrese uno de los caracteres del menu: "
+	llamar nueva_linea
+	escriba "---------------------------------------"
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "Para ver el tipo de datos cadena digite d"
+	llamar nueva_linea
+	escriba "Para ver el tipo de datos enteros digite e"
+	llamar nueva_linea
+	escriba "Para ver el tipo de datos reales digite r"
+	llamar nueva_linea
+	escriba "Para ver el tipo de datos booleanos digite b"
+	llamar nueva_linea
+	escriba "Para ver el tipo de datos caracteres digite c"
+	llamar nueva_linea
+escriba "---------------------------------------"
+	llamar nueva_linea
+	
+	lea carita
+	caso carita
+
+	'd':	
+	llamar nueva_linea
+	escriba "Estas son cadenas"
+	para i<-1 hasta 5 haga
+		llamar nueva_linea
+		escriba cadenas[i]
+	fin para
+	
+	llamar nueva_linea
+escriba "---------------------------------------"
+	llamar nueva_linea
+	
+	'e':
+	escriba "Estas son enteros"
+	para i<-1 hasta 5 haga
+		llamar nueva_linea
+		escriba enteros[i]
+	fin para
+
+	llamar nueva_linea
+escriba "---------------------------------------"	
+	llamar nueva_linea
+	
+	'r':
+	escriba "Estas son reales"
+	para i<-1 hasta 5 haga
+		llamar nueva_linea
+		escriba reales[i]
+	fin para
+	
+	llamar nueva_linea
+escriba "---------------------------------------"
+	llamar nueva_linea
+	
+	'b':
+	escriba "Estas son booleanos"
+	para i<-1 hasta 5 haga
+		llamar nueva_linea
+		escriba booleanos[i]
+	fin para
+	
+	llamar nueva_linea
+escriba "---------------------------------------"
+	llamar nueva_linea
+	
+	'c':
+	escriba "Estas son caracteres"
+	para i<-1 hasta 5 haga
+	llamar nueva_linea
+	escriba caracteres[i]
+	fin para
+	llamar nueva_linea
+	
+	sino: escriba "El caracter digitado no se encuentra dentro de las opciones del menu"
+	llamar nueva_linea
+escriba "---------------------------------------"
+fin caso
+
+			llamar nueva_linea
+			escriba "Desea volver a colocar un dato? coloque:S/N: "
+				lea continuar
+				hasta (continuar = 'N')
+				escriba "Fin"
+				llamar nueva_linea				
+fin

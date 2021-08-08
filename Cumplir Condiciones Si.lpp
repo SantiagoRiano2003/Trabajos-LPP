@@ -1,0 +1,15 @@
+entero n1,n2,n3,n4
+
+inicio
+	escriba "Ingrese los cuatro numeros: "
+	llamar nueva:linea
+	lea n1
+	lea n2
+	lea n3
+	lea n4
+	si ((n1>=10) o (n2>=10) o (n3>=10) o (n4>=10)) entonces
+		escriba "alguno de los numeros es mayor a 10"
+	sino
+		escriba "ninguno de los numeros es mayor a 10"
+	fin si
+fin

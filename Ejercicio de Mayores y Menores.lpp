@@ -1,0 +1,61 @@
+entero a,b,c
+inicio
+
+escriba "Ponga el valor de a : "
+lea a
+escriba "Ponga el valor de b : "
+lea b
+escriba "Ponga el valor de c : "
+lea c
+
+//a<-5
+//b<-6
+//c<-7
+
+	
+	si ((a<b) y (b<c)) entonces
+	escriba a," es menor que ", b, " y ",b, " es menor que ",c
+		llamar nueva_linea
+		escriba "el orden de los numero es: " ,a,b,c
+	sino
+	
+	
+		si ((a>b) y (b>c)) entonces
+		escriba a," es mayor que ",b, " y " ,b, " es mayor que ",c
+			llamar nueva_linea
+			escriba "el orden de los numero es: " ,c,b,a
+		sino
+				
+	
+			si ((a<b) y (b>c) y (a<c)) entonces
+			escriba a," es menor que ",b, " y " ,b, " es mayor que ",c," y ",c, " es mayor que " ,a 
+				llamar nueva_linea
+				escriba "el orden de los numero es: " ,a,c,b
+			sino
+			
+				si ((a<b) y (b>c) y (a>c)) entonces
+				escriba a," es menor que ",b, " y " ,b, " es mayor que ",c," y ",c, " es menor que ",a
+					llamar nueva_linea
+					escriba "el orden de los numero es: " ,c,a,b
+				sino
+	
+
+					si ((a>b) y (b<c) y (a>c)) entonces
+					escriba a," es mayor que ",b, " y " ,b, " es menor que ",c," y ",a, " es mayor que " ,c 
+						llamar nueva_linea
+						escriba "el orden de los numero es: " ,b,c,a
+						sino
+						
+							si ((a>b) y (b<c) y (a<c)) entonces
+							escriba a," es mayor que ",b, " y " ,b, " es menor que ",c," y ",a, " es menor que ",c
+								llamar nueva_linea
+								escriba "el orden de los numero es: " ,b,a,c
+						
+	
+					fin si
+				fin si
+			fin si
+		fin si
+	fin si
+fin si
+fin

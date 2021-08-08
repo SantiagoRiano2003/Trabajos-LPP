@@ -1,0 +1,31 @@
+caracter casa
+entero num1
+inicio
+	num1<-1
+	mientras (num1=1)haga
+		escriba "Lacteos el recreo"
+		llamar nueva_linea
+		llamar nueva_linea
+		escriba "Ingrese una de las opciones del menu"
+		llamar nueva_linea
+		Escriba "* para multiplicacion"
+		llamar nueva_linea
+		escriba "D para dos"
+		llamar nueva_linea
+		escriba "T para tres"
+		llamar nueva_linea
+		
+		lea casa
+			caso casa
+				'*':escriba "multiplicacion"
+				'D':escriba "soy dos"
+				'T':escriba "soy tres"
+				sino: escriba "no soy nada"
+				fin caso
+			llamar nueva_linea
+			llamar nueva_linea
+			Escriba "ingrese el numero uno (1) para volver al menu e ingresar una de las opciones: "
+			llamar nueva_linea
+			lea num1
+			fin mientras
+		fin

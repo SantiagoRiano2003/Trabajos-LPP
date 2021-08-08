@@ -1,0 +1,27 @@
+// Obtener la suma de la serie de los numeros 2,5,7,10......
+// 1.1
+entero suma_serie, numero
+cadena [2] bandera
+inicio
+	suma_serie<-0
+	numero<-1
+	bandera<-"tu"
+	mientras (numero<=7) haga
+		suma_serie<-suma_serie+numero
+		escriba "suma serie va en: ",suma_serie
+		llamar nueva_linea
+		escriba "numero va en: ", numero
+		llamar nueva_linea
+			si (bandera = "tu") entonces
+				numero<-numero+1
+				bandera<-"yo"
+			sino
+				numero<-numero+3
+				bandera<-"tu"
+			fin si
+	fin mientras
+	llamar nueva_linea
+	escriba "suma_serie quedo en: ", suma_serie
+	llamar nueva_linea
+	escriba"suma_numero quedo en: ",numero
+fin

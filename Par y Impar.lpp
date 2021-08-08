@@ -1,0 +1,118 @@
+entero i,x,n,sumapar,sumaimpar,paso
+inicio
+	i<-0
+	x<-0
+	sumaimpar<-0
+	sumapar<-0
+	paso<-0
+ESCRIBA "-------------------------------------------------------------------------------------------------"
+		llamar nueva_linea	
+		escriba "PARTE 1"
+		llamar nueva_linea	
+		escriba "numeros impares: "
+		llamar nueva_linea
+	para i<-1 hasta 10 haga
+		sumaimpar<-sumaimpar+i
+		escriba "El numero va en: ",i
+		i<-i+1
+		paso<-paso+1
+		llamar nueva_linea	
+	fin para
+		llamar nueva_linea
+		escriba "la sumatoria de los numeros impares es: ",sumaimpar
+		llamar nueva_linea
+		escriba "El numero de veces que se paso impar fue: ",paso
+		
+		llamar nueva_linea
+ESCRIBA "-------------------------------------------------------------------------------------------------"
+		paso<-0
+		llamar nueva_linea
+		
+		escriba "PARTE 2"
+		llamar nueva_linea
+		
+		escriba "numeros pares"
+		llamar nueva_linea
+	para i<-1 hasta 10 haga
+		i<-i+1
+		paso<-paso+1
+		escriba "El numero va en: ",i
+		sumapar<-sumapar+i
+		llamar nueva_linea
+	fin para
+		llamar nueva_linea
+		escriba "la sumatoria de los numeros pares es: ",sumapar
+		llamar nueva_linea
+		escriba "El numero de veces que se paso par fue: ",paso
+	
+		llamar nueva_linea
+ESCRIBA "-------------------------------------------------------------------------------------------------"	
+		llamar nueva_linea
+		escriba "PARTE 3"
+		llamar nueva_linea
+		
+		sumaimpar<-0
+		escriba "numeros impares"
+		x<-1
+	mientras (x<=10) haga
+		llamar nueva_linea
+		escriba "El numero va en: ",x
+		sumaimpar<-sumaimpar+x
+		x<-x+2
+	fin mientras
+		llamar nueva_linea
+		escriba "(mientras) la sumatoria de los numeros impares es: ",sumaimpar
+	
+		llamar nueva_linea
+ESCRIBA "-------------------------------------------------------------------------------------------------"
+		llamar nueva_linea
+		escriba "PARTE 4"
+		llamar nueva_linea
+		
+		sumapar<-0
+		escriba "Numeros pares"
+		x<-0
+	mientras (x<=10) haga
+		llamar nueva_linea
+		escriba "El numero va en: ",x
+		sumapar<-sumapar+x
+		x<-x+2	
+	fin mientras
+		llamar nueva_linea
+		escriba "(mientras2) la sumatoria de los numeros pares es: ",sumapar
+	
+		llamar nueva_linea
+ESCRIBA "-------------------------------------------------------------------------------------------------"
+		llamar nueva_linea
+		escriba "PARTE 5"
+		llamar nueva_linea
+	
+	para n<-1 hasta 10 haga
+	si (n mod 2=0) entonces
+		llamar nueva_linea
+		escriba n, " es par"
+	sino
+		llamar nueva_linea
+		escriba n, " es impar"
+	fin si
+	fin para
+		llamar nueva_linea
+ESCRIBA "-------------------------------------------------------------------------------------------------"
+		llamar nueva_linea
+		escriba "PARTE 6"
+		llamar nueva_linea
+	para n<-1 hasta 10 haga
+	mientras (n mod 2=0) haga
+		escriba n," (mientras) es par"
+		n<-n+1
+	fin mientras
+		llamar nueva_linea
+	si (n=11) entonces
+	n<-10
+	fin si
+	mientras (n mod 2<>0) haga
+		escriba n," (mientras) es impar"
+		n<-n+1
+	fin mientras
+	fin para
+fin

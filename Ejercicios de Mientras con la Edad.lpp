@@ -1,0 +1,47 @@
+entero edad,numero,numero1,numero2
+inicio
+	escriba "ingrese su edad: "
+	lea edad
+	mientras (edad>17)haga
+		escriba "soy mayor de edad: "
+		lea edad
+	fin mientras
+	
+	escriba "soy menor de edad: "
+	
+llamar nueva_linea
+llamar nueva_linea
+
+escriba "ingrese un numero menor a 11: "
+lea numero
+	mientras (numero<11)haga
+		escriba "voy en: ", numero
+		llamar nueva_linea
+		numero<-numero+1
+		fin mientras
+		
+llamar nueva_linea
+llamar nueva_linea
+
+numero1<-10
+	mientras (numero1>0)haga
+		escriba "voy en: ",numero1
+		llamar nueva_linea
+		numero1<-numero1-1
+		fin mientras
+		
+llamar nueva_linea
+llamar nueva_linea
+
+numero2<-0
+	escriba "ingrese un numero mayor a 11: "
+	lea numero2
+	mientras (numero2>11)haga
+		escriba "voy en: ",numero2
+		llamar nueva_linea
+		numero2<-numero2+2
+		fin mientras
+	
+	
+
+fin

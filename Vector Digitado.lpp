@@ -1,0 +1,18 @@
+arreglo [1] de entero numero
+entero m,n
+inicio
+escriba "Digite la cantidad de numeros a ingresar: "
+llamar nueva_linea
+lea m
+para n<-1 hasta m haga
+escriba "Digite el numero"
+llamar nueva_linea
+lea numero[n]
+fin para
+
+llamar nueva_linea
+para n<-1 hasta m haga
+escriba "El indice [",m,"] contiene: ",numero [n]
+llamar nueva_linea
+fin para
+fin

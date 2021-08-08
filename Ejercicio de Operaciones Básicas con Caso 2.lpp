@@ -1,0 +1,87 @@
+real opcion,n1,n2,a,b,c,d
+inicio
+	escriba "                    --- Bienvenido a la Pseudocalculadora tonta---"
+	llamar nueva_linea
+	escriba "                          Digite la operacion que quiera hacer"
+			llamar nueva_linea
+			escriba "                                    1.1 = Suma"
+			llamar nueva_linea
+			escriba "                                    2.2 = Resta"
+			llamar nueva_linea
+			escriba "                                3.3 = Multiplicacion"
+			llamar nueva_linea
+			escriba "                                  4.4 = Division"
+			llamar nueva_linea
+			llamar nueva_linea
+			llamar nueva_linea
+					
+			escriba "Digite aqui el numero de la operacion: "
+			lea opcion
+					llamar nueva_linea
+					caso opcion
+					1.1: escriba "Suma"
+						llamar nueva_linea
+						llamar nueva_linea
+						escriba "El valor 1 es: "
+						lea n1
+						llamar nueva_linea
+						escriba "El valor 2 es: "
+						lea n2
+						a<-n1+n2
+						b<-n1-n2
+						c<-n1*n2
+						d<-n1/n2
+						llamar nueva_linea
+						escriba "la suma de ",n1, " mas ",n2, " es ",a
+						llamar nueva_linea	
+						
+					2.2: escriba "Resta"
+						llamar nueva_linea
+						llamar nueva_linea
+						escriba "El valor 1 es: "
+						lea n1
+						llamar nueva_linea
+						escriba "El valor 2 es: "
+						lea n2
+						a<-n1+n2
+						b<-n1-n2
+						c<-n1*n2
+						d<-n1/n2
+						llamar nueva_linea
+						escriba "la resta de ",n1, " menos ",n2, " es ",b
+						llamar nueva_linea
+						
+					3.3: escriba "Multiplicacion"
+						llamar nueva_linea
+						llamar nueva_linea
+						escriba "El valor 1 es: "
+						lea n1
+						llamar nueva_linea
+						escriba "El valor 2 es: "
+						lea n2
+						a<-n1+n2
+						b<-n1-n2
+						c<-n1*n2
+						d<-n1/n2
+						llamar nueva_linea
+						escriba "la mulplicacion de ",n1, " por ",n2, " es ",c
+						llamar nueva_linea
+						
+					4.4: escriba "Divison"
+						llamar nueva_linea
+						llamar nueva_linea
+						escriba "El valor 1 es: "
+						lea n1
+						llamar nueva_linea
+						escriba "El valor 2 es: "
+						lea n2
+						a<-n1+n2
+						b<-n1-n2
+						c<-n1*n2
+						d<-n1/n2
+						llamar nueva_linea
+						escriba "la divison de ",n1," entre ",n2, " es ",d	
+						
+						sino: escriba "Valor no disponible"
+			fin caso
+		fin

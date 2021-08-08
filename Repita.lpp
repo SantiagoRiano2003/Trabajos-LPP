@@ -1,0 +1,30 @@
+caracter respuesta
+entero nota
+inicio
+	repita
+		escriba "ingresar la nota del aprendiz: "
+		lea nota
+			repita
+				llamar nueva_linea
+				escriba "desea continuar S/N?"
+				llamar nueva_linea
+				lea respuesta
+				hasta ((respuesta = 'S') o (respuesta = 'N'))
+				hasta (respuesta = 'N')
+				escriba "buena nota!!!"
+				llamar nueva_linea
+fin
+
+/*
+caracter respuesta
+entero nota
+inicio
+	repita
+	escriba "Hola mundito nota!!! "
+	llamar nueva_linea
+	escriba "Ingrese cualquier letra para continuar o N para terminar: "
+	lea respuesta
+	llamar nueva_linea
+	hasta (respuesta= 'N')
+	Escriba "Buena Nota"
+fin

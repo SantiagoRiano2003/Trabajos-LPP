@@ -1,0 +1,126 @@
+entero opcion,opcion1,n1,n2,r
+inicio
+	escriba "Digite una opcion del 1 al 8 para entrar a uno de los ocho pisos: "
+	lea opcion
+	caso opcion
+	1:escriba "Ingresaste el piso uno "
+	llamar nueva_linea
+		escriba "Digite del 1 al 5 para activar la luz de alguno de los cinco locales: "
+		lea opcion1
+		caso opcion1
+		1: escriba "local uno con luz"
+		2: escriba "local dos con luz"
+		3: escriba "local tres con luz"
+		4: escriba "local cuatro con luz"
+		5: escriba "local cinco con luz"
+		sino:
+			escriba "el numero de piso digitado no esta en la lista"
+			fin caso
+			
+	2:escriba "Ingresaste el piso dos "
+	llamar nueva_linea
+		escriba "Digite del 1 al 5 para activar la luz de alguno de los cinco locales: "
+		lea opcion1
+		caso opcion1
+		1: escriba "local uno con luz"
+		2: escriba "local dos con luz"
+		llamar nueva_linea
+			n1<-3
+			n2<-67
+			r<-n1+n2
+			escriba "el resultado de la suma de ",n1," mas ",n2," es igual a ",r
+		3: escriba "local tres con luz"
+		4: escriba "local cuatro con luz"
+		5: escriba "local cinco con luz"
+		sino:
+			escriba "el numero de piso digitado no esta en la lista"
+			fin caso
+		
+	3:escriba "Ingresaste al piso tres "
+	llamar nueva_linea
+			escriba "Digite del 1 al 5 para activar la luz de alguno de los cinco locales:"
+		lea opcion1
+		caso opcion1
+		1: escriba "local uno con luz"
+		2: escriba "local dos con luz"
+		3: escriba "local tres con luz"
+		4: escriba "local cuatro con luz"
+		5: escriba "local cinco con luz"
+		sino:
+			escriba "el numero de piso digitado no esta en la lista"
+			fin caso
+			
+	4:escriba "ingresaste al piso cuatro "
+	llamar nueva_linea
+			escriba "Digite del 1 al 5 para activar la luz de alguno de los cinco locales: "
+		lea opcion1
+		caso opcion1
+		1: escriba "local uno con luz"
+		2: escriba "local dos con luz"
+		3: escriba "local tres con luz"
+		4: escriba "local cuatro con luz"
+		5: escriba "local cinco con luz"
+		sino:
+			escriba "el numero de piso digitado no esta en la lista"
+			fin caso
+			
+	5:escriba "Ingresaste al piso cinco "
+	llamar nueva_linea
+			escriba "Digite del 1 al 5 para activar la luz de alguno de los cinco locales: "
+		lea opcion1
+		caso opcion1
+		1: escriba "local uno con luz"
+		2: escriba "local dos con luz"
+		3: escriba "local tres con luz"
+		4: escriba "local cuatro con luz"
+		5: escriba "local cinco con luz"
+		sino:
+			escriba "el numero de piso digitado no esta en la lista"
+			fin caso
+		
+	6:escriba "Ingresaste al piso seis "
+		llamar nueva_linea
+			escriba "Digite del 1 al 5 para activar la luz de alguno de los cinco locales: "
+		lea opcion1
+		caso opcion1
+		1: escriba "local uno con luz"
+		2: escriba "local dos con luz"
+		3: escriba "local tres con luz"
+		4: escriba "local cuatro con luz"
+		5: escriba "local cinco con luz"
+		sino:
+			escriba "el numero de piso digitado no esta en la lista"
+			fin caso
+		
+	7:escriba "Ingresaste al piso siete "
+		llamar nueva_linea
+			escriba "Digite del 1 al 5 para activar la luz de alguno de los cinco locales: "
+		lea opcion1
+		caso opcion1
+		1: escriba "local uno con luz"
+		2: escriba "local dos con luz"
+		3: escriba "local tres con luz"
+		4: escriba "local cuatro con luz"
+		5: escriba "local cinco con luz"
+		sino:
+			escriba "el numero de piso digitado no esta en la lista"
+			fin caso
+			
+	8:escriba "Ingresaste al piso ocho "
+	llamar nueva_linea
+			escriba "Digite del 1 al 5 para activar la luz de alguno de los cinco locales: "
+		lea opcion1
+		caso opcion1
+		1: escriba "local uno con luz"
+		2: escriba "local dos con luz"
+		3: escriba "local tres con luz"
+		4: escriba "local cuatro con luz"
+		5: escriba "local cinco con luz"
+		sino:
+			escriba "el numero de piso digitado no esta en la lista"
+			fin caso
+	sino:
+	
+		escriba "No hay el piso seleccionado"
+	fin caso
+fin

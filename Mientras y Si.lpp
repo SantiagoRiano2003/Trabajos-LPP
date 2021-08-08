@@ -1,0 +1,46 @@
+caracter continua, continuadelsi
+entero edad
+
+inicio
+
+continua<-'S'
+
+		mientras ((continua='S') o (continua='s')) haga
+		llamar nueva_linea
+		
+		escriba "Bienvenido"
+		llamar nueva_linea
+		escriba "Ponga su edad: "
+		llamar nueva_linea
+		lea Edad
+		llamar nueva_linea
+		si (edad>17) entonces
+			escriba "Ingrese a cine"
+			llamar nueva_linea
+			escriba "Seguro?: "
+			llamar nueva_linea
+			lea continuadelsi
+			mientras ((continuadelsi='S') o (continuadelsi='s')) haga
+				escriba "Definitivamente eres mayor de edad"
+				llamar nueva_linea
+				escriba "ingrese S o s para continuar u otra tecla para terminar: "
+				lea continuadelsi
+				
+			fin mientras
+	
+	sino
+		
+		escriba "Ingrese a cine para ninos"
+		llamar nueva_linea
+			
+		fin si
+		
+			escriba "ingrese S o s para continuar o otra letra para salir: "
+			
+			lea continua
+			llamar nueva_linea
+
+fin mientras
+
+
+fin

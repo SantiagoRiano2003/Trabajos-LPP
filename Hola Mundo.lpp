@@ -1,0 +1,17 @@
+caracter entrada
+inicio
+	Escriba "Digite s o S para decir hola mundo y otra tecla para terminar: "
+	lea entrada
+	mientras (entrada='s') o (entrada= 'S') haga
+	llamar nueva_linea
+	escriba "Hola mundo"
+	
+	llamar nueva_linea
+	llamar nueva_linea
+	
+	Escriba "Digite s o S para decir hola mundo y otra tecla para terminar: "
+	lea entrada
+
+fin mientras
+
+Fin

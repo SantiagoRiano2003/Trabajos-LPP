@@ -1,0 +1,24 @@
+entero a,b,c
+
+inicio
+	escriba "digite un numero menor, igual o superior a 5 "
+	llamar nueva_linea
+	lea a
+	llamar nueva_linea
+	escriba "Digite otro numero menor,igual o superior a 5"
+	LLAMAR nueva_linea
+	lea b
+	llamar nueva_linea
+	escriba "digite otro numero menor,igual o superior a 5"
+	llamar nueva_linea
+	lea c
+	llamar nueva_linea
+	si ((a>5) o (b>5) o (c>5)) entonces
+	escriba "algunos de los numeros es mayor o igual a 5 "
+	sino
+	llamar nueva_linea
+	escriba "algunos numeros son menores a 5 o son 5"
+fin si
+fin
+
+

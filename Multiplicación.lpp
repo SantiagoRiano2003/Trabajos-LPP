@@ -1,0 +1,75 @@
+--------------------------------------------------------------------------------
+/*
+entero n1,n2,n3,n4
+
+inicio
+//n1<-1
+	
+	escriba "Digite el numero incial de la tabla: "
+	lea n1
+	escriba "Digite el numero que multiplique: "
+	lea n2
+	escriba "Digite el numero limite de la tabla: "
+	lea n4
+	
+		mientras (n1<=n4)haga
+			n3<-n1*n2
+			escriba n1," * ",n2, " es: ",n3
+			n1<-n1+1
+			llamar nueva_linea
+		
+		fin mientras
+	
+fin
+--------------------------------------------------------------------------------
+/*
+entero n1,n2,n3,n4
+
+inicio
+//n1<-1
+	
+	escriba "Digite el numero incial de la tabla: "
+	lea n1
+	escriba "Digite el numero que multiplique: "
+	lea n2
+	escriba "Digite el numero limite de la tabla: "
+	lea n4
+	
+	llamar nueva_linea
+	
+		mientras (n1>=n4)haga
+			n3<-n1*n2
+			escriba n1," * ",n2, " es: ",n3
+			n1<-n1-1
+			llamar nueva_linea
+		
+		fin mientras
+	
+fin
+--------------------------------------------------------------------------------
+*/
+entero n1,n2,n3,n4
+
+inicio
+//n1<-1
+	
+	escriba "Digite el numero incial de la tabla: "
+	lea n1
+	escriba "Digite el numero que multiplique: "
+	lea n2
+	escriba "Digite el numero limite de la tabla: "
+	lea n4
+	
+	llamar nueva_linea
+	
+		mientras (n1>=n4)haga
+			n3<-n1*n2
+			escriba n1," * ",n2, " es: ",n3
+			llamar nueva_linea
+			escriba "Digite un numero inferior o igual al limite de la tabla: ",n4, " Para continuar: 
+		    lea n1
+		fin mientras
+	
+fin
+
+--------------------------------------------------------------------------------

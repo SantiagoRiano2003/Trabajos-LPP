@@ -1,0 +1,48 @@
+/*
+caracter respuesta
+real nota
+inicio
+repita
+escriba "ingrese la nota: "
+lea nota
+	repita
+	escriba "Desea continuar ingresando la nota? s/n : "
+	lea respuesta
+	hasta ((respuesta='s') o (respuesta='n'))
+hasta (respuesta='n')
+escriba "Terminaste de ingresar las notas"
+fin
+
+/*
+caracter respuesta
+real nota
+inicio
+repita
+	escriba "ingrese la nota: "
+	lea nota
+	escriba "Desea continuar ingresando la nota? s/S : "
+	lea respuesta
+	hasta ((respuesta='s') o (respuesta='S'))
+escriba "Terminaste de ingresar las notas"
+fin
+
+
+
+*/
+caracter respuesta
+entero acumulado
+inicio
+	acumulado<-1
+	mientras (acumulado<4) haga
+		repita
+			escriba " Si desa continuar digite un caracter distinto de s o S: "
+			llamar nueva_linea
+			lea respuesta
+			hasta ((respuesta='S') o (respuesta='s'))
+			acumulado<-acumulado+1
+			escriba "terminaste de ingresar las notas"
+			llamar nueva_linea
+			escriba "tu acumulado de salida va en: ",acumulado-1
+			llamar nueva_linea
+	fin mientras
+fin

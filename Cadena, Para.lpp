@@ -1,0 +1,115 @@
+/*
+cadena[50]nombre
+entero n
+inicio
+		para n<-1 hasta 5 haga
+		llamar nueva_linea
+		escriba "Digite sus nombres: "
+		lea nombre
+		llamar nueva_linea
+		escriba "El nombre es:  ",nombre
+	fin para
+fin
+
+------
+entero n,b,c
+inicio
+	para n<-1 hasta 3 haga
+	llamar nueva_linea
+	escriba "Maria de la calle ",n
+			
+			para b<-1 hasta 2 haga
+			llamar nueva_linea
+			escriba "Rocio de la casa ",b
+			
+					para c<-1 hasta 2 haga
+					llamar nueva_linea 
+					escriba "instructor Victor ",c
+					llamar nueva_linea 
+			fin para
+		fin para
+	fin para
+fin
+
+
+
+*/
+entero a,b,c
+inicio
+
+Escriba"                                                  Tabla de multiplicar del 1 al 5"
+c<-0
+	llamar nueva_linea
+	escriba "Tabla del 1"
+	para b<-1 hasta 5 haga
+	a<-1
+	c<-a*b
+	llamar nueva_linea
+	escriba a," por ",b, " es: ",c
+	fin para
+	llamar nueva_linea
+		
+		llamar nueva_linea
+		escriba "Tabla del 2"
+		para b<-1 hasta 5 haga
+		a<-2
+		c<-a*b
+		llamar nueva_linea
+		escriba a," por ",b, " es: ",c
+		fin para
+		llamar nueva_linea
+			
+			llamar nueva_linea
+			Escriba "Tabla del 3"
+			para b<-1 hasta 5 haga
+			a<-3
+			c<-a*b
+			llamar nueva_linea
+			escriba a," por ",b, " es: ",c
+			fin para
+			llamar nueva_linea
+			
+				llamar nueva_linea
+				escriba "Tabla del 4"
+				para b<-1 hasta 5 haga
+				a<-4
+				c<-a*b
+				llamar nueva_linea
+				escriba a," por ",b, " es: ",c
+				fin para
+				llamar nueva_linea
+				
+					llamar nueva_linea
+					escriba "Tabla del 5"
+					para b<-1 hasta 5 haga
+					a<-5
+					c<-a*b
+					llamar nueva_linea
+					escriba a," por ",b, " es: ",c
+					fin para
+					llamar nueva_linea
+	
+	fin
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,45 @@
+entero filas, columna, auxiliar,numero,i
+arreglo [10] de entero vector
+inicio
+/*	escriba "ingrese los numeros a ordenar"
+	llamar nueva_linea
+	para i<-1 hasta 5 haga
+		lea vector[i]
+	fin para
+	
+	19,1,9,7,3,10,13,15,8,12 */
+	
+	vector[1]<-19
+	vector[2]<-1
+	vector[3]<-9
+	vector[4]<-7
+	vector[5]<-3
+	vector[6]<-10
+	vector[7]<-13
+	vector[8]<-15
+	vector[9]<-8
+	vector[10]<-12
+	
+	
+	escriba "IMPRESION DEL VECTOR CON NUMEROS"
+	llamar nueva_linea
+	para filas<-1 hasta 10 haga
+		escriba vector[filas]
+		llamar nueva_linea
+	fin para
+	escriba "ORDENAMIENTO DE LOS NUMEROS DIGITADOS"
+	llamar nueva_linea	
+	para filas<-1 hasta 10 haga
+		para columna<-1 hasta 10-filas haga
+			si vector[columna]>vector[columna+1] entonces
+				auxiliar<-vector[columna]
+				vector[columna]<-vector[columna+1]
+				vector[columna+1]<-auxiliar
+			fin si
+		fin para
+	fin para	
+	para numero<-1 hasta 10 haga
+		escriba "El indice [",numero,"] es: ", vector[numero]
+		llamar nueva_linea
+	fin para
+fin

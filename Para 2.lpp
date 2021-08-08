@@ -1,0 +1,50 @@
+/*
+entero n,b
+inicio
+	para n<-1 hasta 5 haga
+		llamar nueva_linea
+		escriba "Tabla del: ",n
+		llamar nueva_linea
+			para b<-1 hasta 5 haga
+				escriba b," por ",n, " igual a: ",b*n
+				llamar nueva_linea
+			fin para
+	fin para
+fin
+
+
+*/
+entero n,b,c,d,e,f
+inicio
+escriba "ingrese el numero inicial: "
+lea c
+escriba "Ingrese el numero final: "
+lea d
+mientras (c<d)haga
+	para n<-c hasta d haga
+		llamar nueva_linea
+		escriba "Tabla del: ",n
+		llamar nueva_linea
+		escriba "Ingrese el numero incial: "
+		llamar nueva_linea
+		lea e
+		escriba "ingrese el numero final: "
+		llamar nueva_linea
+		lea f
+			para b<-e hasta f haga
+				escriba b," por ",n, " igual a: ",b*n
+				llamar nueva_linea
+				fin para
+			c<-c+1
+		fin para
+		escriba "Ingrese el numero incial: "
+		llamar nueva_linea
+		lea c
+		escriba "ingrese el numero final: "
+		llamar nueva_linea
+		lea d
+	fin mientras
+escriba "Proceso terminado"
+fin
+
+

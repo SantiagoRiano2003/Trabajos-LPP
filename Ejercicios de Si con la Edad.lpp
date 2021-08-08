@@ -1,0 +1,38 @@
+entero edad
+inicio 
+ escriba "ingrese su edad "
+ 	lea edad
+	 	si (edad<1) entonces
+ 		escriba "Usted no ha nacido"
+ 		sino
+ 				si (edad<3) entonces
+ 				escriba "Usted es un bebe "
+				sino	
+ 						si (edad<10) entonces
+   						escriba "Usted es un niño "
+   						sino
+    						si (edad<17) entonces
+    						escriba "Usted es un adolescente"
+    						sino
+    								si (edad<30) entonces
+    								escriba "Usted es un joven"
+    								sino
+    									si (edad<61) entonces
+    									escriba "Usted es un Adulto"
+    									sino
+    											si (edad<76) entonces
+    											escriba "Usted es un Adulto mayor"
+    											sino
+    													si (edad>85) entonces
+    													escriba "Usted es un anciano"
+    													sino
+    														fin si
+    														fin si	
+    														fin si
+    														fin si
+    														fin si
+    														fin si
+    														fin si
+    														fin si
+    
+fin	
