@@ -1,0 +1,24 @@
+real lado1,lado2,perimetro
+inicio
+
+escriba "				Para calcular el perimetro ponga los datos de dos de los cuatro lados del rectangulo"
+llamar nueva_linea
+escriba "Ingrese el lado numero 1: "
+lea lado1
+llamar nueva_linea
+escriba "Ingrese el lado numero 2: "
+lea lado2
+llamar nueva_linea
+llamar nueva_linea
+
+perimetro<-2*lado1+2*lado2
+
+escriba "El perimetro es: ",perimetro
+
+
+
+
+
+
+
+fin

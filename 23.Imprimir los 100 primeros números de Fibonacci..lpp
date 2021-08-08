@@ -1,0 +1,17 @@
+entero n1,n2,n3,n4
+inicio
+n1<-1
+n2<-0
+n4<-0
+Escriba "Numeros de Fibonacci"
+llamar nueva_linea
+llamar nueva_linea
+mientras (n4<101) haga
+n4<-n4+1
+n3<-n1+n2
+n1<-n2
+n2<-n3
+escriba "El numero va en: ",n1
+llamar nueva_linea
+fin mientras
+fin

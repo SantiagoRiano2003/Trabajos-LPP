@@ -1,0 +1,48 @@
+entero filas, columna, auxiliar,numero,n,m,x
+arreglo [20] de entero vector
+inicio
+x<-0
+escriba "Encontrar el numero de menor y el de mayor valor"
+llamar nueva_linea
+escriba "Digite la cantidad de numeros a ingresar: "
+llamar nueva_linea
+m<-20
+para n<-1 hasta m haga
+x<-x+1
+escriba "Digite el numero: ",x
+llamar nueva_linea
+lea vector[n]
+fin para
+
+
+	escriba "Impresion de numeros"
+	llamar nueva_linea
+	para filas<-1 hasta 20 haga
+		escriba vector[filas]
+		llamar nueva_linea
+	fin para
+	escriba "Ordenamiento"
+	llamar nueva_linea	
+	para filas<-1 hasta 20 haga
+		para columna<-1 hasta 20-filas haga
+			si vector[columna]>vector[columna+1] entonces
+				auxiliar<-vector[columna]
+				vector[columna]<-vector[columna+1]
+				vector[columna+1]<-auxiliar
+			fin si
+		fin para
+	fin para	
+	para numero<-1 hasta 20 haga
+		escriba "El indice [",numero,"] es: ", vector[numero]
+		llamar nueva_linea
+	fin para
+	
+			llamar nueva_linea
+			escriba "--------------------------------------------------"
+			llamar nueva_linea
+			escriba "El numero menor es: ",vector[1]
+			llamar nueva_linea
+			escriba "El numero mayor es: ",vector[20]
+			llamar nueva_linea
+			escriba "--------------------------------------------------"			
+fin

@@ -1,0 +1,16 @@
+real base,altura,area
+inicio
+
+escriba "				Para calcular el area del triangulo llene los siguientes datos"
+llamar nueva_linea
+escriba "Ingrese la base para la calcular el area: "
+lea base
+llamar nueva_linea
+escriba "Ingrese la altura para calcular el area: "
+lea altura
+
+area<-altura*base/2
+
+escriba "El area del triangulo es: ",area
+
+fin

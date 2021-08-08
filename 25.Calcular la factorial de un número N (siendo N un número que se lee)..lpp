@@ -1,0 +1,17 @@
+entero num,factorial,n1
+inicio
+	factorial<-1
+	n1<-1
+	escriba "Por favor ingrese para calcular su factorial: "
+	lea num
+		si num<0 entonces
+			escriba "El numero no se puede calcular"
+		sino
+			mientras n1<=num haga
+			factorial<-factorial*n1
+			n1<-n1+1
+			fin mientras
+			
+			escriba "El factorial del numero es: ",factorial
+		fin si
+	fin

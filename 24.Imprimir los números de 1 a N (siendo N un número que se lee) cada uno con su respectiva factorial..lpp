@@ -1,0 +1,21 @@
+entero num,factorial,n1,num2
+inicio
+	factorial<-1
+	n1<-1
+	num<-0
+	escriba "Por favor ingrese la cantidad de veces que se va a calcular la factorial: "
+	lea num2
+		si num2<0 entonces
+			escriba "El numero no se puede calcular"
+		sino
+		mientras num<num2 haga
+		num<-num+1
+			mientras n1<=num haga
+			factorial<-factorial*n1
+			n1<-n1+1
+			escriba "El factorial de ",num," es: ",factorial
+			llamar nueva_linea
+			fin mientras
+			fin mientras		
+	fin si
+fin

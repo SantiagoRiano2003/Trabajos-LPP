@@ -1,0 +1,22 @@
+arreglo [1] de entero numero
+entero m,n,x
+inicio
+m<-1
+escriba "Escriba un dato para almacenarlo y elevarlo"
+llamar nueva_linea
+para n<-1 hasta m haga
+escriba "Digite el numero: "
+lea numero[1]
+fin para
+
+llamar nueva_linea
+para n<-1 hasta m haga
+escriba "El indice [",m,"] contiene: ",numero [n]
+x<-2^numero [n]
+
+llamar nueva_linea
+escriba "El resultado de la operacion de 2 elevado a la ",numero [n], " es: ",x
+
+llamar nueva_linea
+fin para
+fin

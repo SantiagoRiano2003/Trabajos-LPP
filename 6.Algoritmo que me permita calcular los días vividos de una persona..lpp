@@ -1,0 +1,18 @@
+entero edad,fecha,dias
+inicio
+
+Escriba "					Calculadora de los dias vividos de una persona"
+llamar nueva_linea
+llamar nueva_linea
+escriba "Digite su ano de nacimiento: "
+lea edad
+llamar nueva_linea
+escriba "Digite el ano actual: "
+lea fecha
+
+dias<-(fecha-edad)*365
+
+llamar nueva_linea
+escriba "Usted tiene ",dias," dias vividos"
+
+fin

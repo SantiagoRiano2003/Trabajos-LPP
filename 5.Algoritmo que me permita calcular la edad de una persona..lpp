@@ -1,0 +1,30 @@
+entero edad,ano,edad2
+inicio
+
+escriba " 					Calculadora de la edad"
+	llamar nueva_linea
+	escriba "Ingrese su ano de nacimiento:"
+	lea edad
+	llamar nueva_linea
+	escriba "Ingrese el ano actual:"
+	lea ano
+
+edad2<-ano-edad
+	llamar nueva_linea
+	mientras edad>ano haga
+	escriba "Su fecha de nacimiento no puede ser mayor a la fecha actual"
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "Ingrese su ano de nacimiento:"
+	lea edad
+	llamar nueva_linea
+	escriba "Ingrese el ano actual:"
+	lea ano
+	llamar nueva_linea
+	
+fin mientras
+edad2<-ano-edad
+
+	llamar nueva_linea
+	escriba "Su edad es: ",edad2," anos."
+fin

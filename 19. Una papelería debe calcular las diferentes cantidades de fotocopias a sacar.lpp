@@ -1,0 +1,37 @@
+real fotocopias,preciounidad,total,descuento
+inicio
+preciounidad<-100
+escriba "Cuantas fotocopias va a sacar?: "
+lea fotocopias
+	si (fotocopias<99) entonces
+	total<-preciounidad*fotocopias
+	escriba "El precio total sin descuento es de : ",total
+	
+		sino
+		
+			si (fotocopias>99) y (fotocopias<=200) entonces
+			descuento<-preciounidad*0.88
+			total<-descuento*fotocopias
+			escriba "El precio total con descuento del 12% es de: ",total
+			
+				sino
+				
+					si (fotocopias>200) y (fotocopias<=400) entonces
+					descuento<-preciounidad*0.85
+					total<-descuento*fotocopias
+					escriba "El precio total con descuento del 15% es de: ",total
+					
+						sino
+						
+							si (fotocopias>400) entonces
+							descuento<-preciounidad*0.82
+							total<-descuento*fotocopias
+							escriba "El precio total con descuento de 18% es de: ",total
+							
+						fin si
+					fin si
+				fin si	
+			fin si	
+fin
+
+

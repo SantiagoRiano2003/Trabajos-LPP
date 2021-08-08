@@ -1,0 +1,21 @@
+real mujeres,hombres,total,porcentajehombres,porcentajemujeres
+
+inicio
+
+escriba "					Porcentaje de hombres y mujeres"
+llamar nueva_linea
+llamar nueva_linea
+escriba "Digite el numero de mujeres: "
+lea mujeres
+escriba "Digite el numero de hombres: "
+lea hombres
+
+total<-hombres+mujeres
+porcentajehombres<-(hombres/total)*100
+porcentajemujeres<-(mujeres/total)*100
+
+llamar nueva_linea
+escriba "El porcentaje de hombres es del: ",porcentajehombres,"%"
+llamar nueva_linea
+escriba "El porcentaje de mujeres es del: ",porcentajemujeres,"%"
+fin

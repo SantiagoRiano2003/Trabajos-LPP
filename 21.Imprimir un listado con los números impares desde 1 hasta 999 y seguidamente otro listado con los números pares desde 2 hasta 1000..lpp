@@ -1,0 +1,22 @@
+entero n1,n2
+inicio
+n1<-(-1)
+n2<-0
+Escriba "					Numero de 1 al 1000 dividiendolos en pares e impares"
+		llamar nueva_linea
+		Escriba "Listado 1"
+		llamar nueva_linea
+	mientras n1<999 haga
+		n1<-n1+2
+		escriba "Valor ",n1
+		llamar nueva_linea
+	fin mientras
+		llamar nueva_linea
+		Escriba "Listado 2"
+		llamar nueva_linea
+	mientras n2<1000 haga
+		n2<-n2+2
+		escriba "Valor ",n2
+		llamar nueva_linea
+	fin mientras
+fin

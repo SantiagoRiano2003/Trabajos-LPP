@@ -1,0 +1,11 @@
+entero n,x,c
+inicio
+escriba "Ejercicio de base y potencia "
+llamar nueva_linea
+escriba "Escriba el valor 1: "
+lea n
+escriba "Escriba el valor 2: "
+lea x
+c<-x^n
+escriba "El resultado de ",x," elevado a ",n," es: ",c
+fin

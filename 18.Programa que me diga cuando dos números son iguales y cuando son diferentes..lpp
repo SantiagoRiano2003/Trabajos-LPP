@@ -1,0 +1,19 @@
+entero n1,n2
+
+inicio
+Escriba "Ingrese el valor de dos numeros para compararlos "
+llamar nueva_linea
+llamar nueva_linea
+escriba "Escriba valor 1: "
+lea n1
+llamar nueva_linea
+Escriba "Escriba valor 2: "
+lea n2
+llamar nueva_linea
+
+si n1<=n2 entonces
+escriba "Los dos numeros son iguales"
+sino
+escriba "Los numeros no son iguales"
+fin si
+fin

@@ -1,0 +1,20 @@
+real producto,iva,total
+
+inicio
+
+escriba "					Calculadora del precio total con el iva al 16%"
+llamar nueva_linea
+escriba "Introduzca el precio del producto: $"
+lea producto
+llamar nueva_linea
+
+iva<-producto*0.16
+total<-producto+iva
+
+escriba "El valor del articulo sin iva es de: $",producto
+llamar nueva_linea
+escriba "El Iva es de: $",iva
+llamar nueva_linea
+escriba "El precio del articulo es de: $",total
+
+fin

@@ -1,0 +1,15 @@
+entero n1
+
+inicio
+
+escriba "Ingrese un numero, si es mayor a veinte y menor a cuarenta se le sumara quince: "
+lea n1
+llamar nueva_linea
+si (n1>20) y (n1<40) entonces
+n1<-n1+15
+escriba "El numero queda como: ",n1
+sino
+escriba "El numero queda como: ",n1
+fin si
+
+fin

@@ -1,0 +1,23 @@
+real numero1,numero2,numero3,resultado
+inicio
+
+
+escriba "				Escriba los tres numeros para ser sumados"
+llamar nueva_linea
+escriba "Ponga el primer numero: "
+lea numero1
+llamar nueva_linea
+llamar nueva_linea
+escriba "Ponga el segundo numero: "
+lea numero2
+llamar nueva_linea
+llamar nueva_linea
+escriba "Ponga el tercer numero: "
+lea numero3
+llamar nueva_linea
+llamar nueva_linea
+resultado<-numero1+numero2+numero3
+escriba "El resultado de la suma es: ",resultado
+
+
+fin

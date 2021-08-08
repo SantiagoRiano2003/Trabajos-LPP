@@ -1,0 +1,13 @@
+entero n1
+
+inicio
+Escriba "Ingrese su nota para saber si paso o no la materia: "
+lea n1
+llamar nueva_linea
+
+si n1<3 entonces
+escriba "Lo siento debes recuperar"
+sino
+escriba "Muy bien pasaste la materia"
+fin si
+fin

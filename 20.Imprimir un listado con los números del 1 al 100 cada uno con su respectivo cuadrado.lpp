@@ -1,0 +1,13 @@
+entero n1,n2
+inicio
+n1<-0
+Escriba "					Numero de 1 al 100 con su respectuvo cuadrado"
+	llamar nueva_linea
+	llamar nueva_linea
+		mientras n1<100 haga
+		n1<-n1+1
+		n2<-n1*n1
+		escriba n1,"=",n2
+		llamar nueva_linea
+fin mientras
+fin

@@ -1,0 +1,25 @@
+cadena[50]nombre,direccion,telefono 
+inicio
+escriba "Ingrese sus datos para almacenarlos en el sistema"
+	llamar nueva_linea
+	escriba "Ponga su nombre: "
+	lea nombre
+	llamar nueva_linea
+	escriba "Ponga su direccion: "
+	lea direccion
+	llamar nueva_linea
+	escriba "Ponga su telefono: "
+	lea telefono
+	llamar nueva_linea
+	
+	llamar nueva_linea
+	escriba "Los datos almacenados son los siguientes: "
+	llamar nueva_linea
+	Escriba "Su nombre es: ",nombre
+	llamar nueva_linea
+	escriba "Su telefono es: ",telefono
+	llamar nueva_linea
+	escriba "Su direccion es: ",direccion
+
+
+fin

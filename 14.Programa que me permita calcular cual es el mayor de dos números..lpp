@@ -1,0 +1,17 @@
+entero n1,n2
+inicio
+
+escriba "Introduzca 2 valores para saber cual es más grande que otro"
+llamar nueva_linea
+llamar nueva_linea
+escriba "Valor 1: "
+lea n1
+escriba "Valor 2: "
+lea n2
+
+si n1<n2 entonces
+escriba n2, " es mayor que ",n1
+sino
+escriba n1, " es mayor que ",n2
+fin si
+fin

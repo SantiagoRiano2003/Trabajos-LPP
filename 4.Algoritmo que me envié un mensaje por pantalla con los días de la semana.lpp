@@ -1,0 +1,16 @@
+entero a
+inicio
+  escriba "Introduce un numero del 1 al 7 para escoger un dia de la semana: "
+  lea a
+        caso a
+        1: escriba "Lunes"
+		2: escriba "Martes"
+		3: escriba "Miercoles"
+		4: escriba "Jueves"
+		5: escriba "Viernes"
+		6: escriba "Sabado"
+		7: escriba "Domingo"  
+    sino:
+    escriba "Dato no valido"
+    fin caso
+fin

@@ -1,0 +1,23 @@
+entero n1
+inicio
+		Escriba "					Numero de N hasta 50 de forma descendente "
+		llamar nueva_linea
+		Escriba "Coloque un numero par mayor a 50: "
+		lea n1
+		llamar nueva_linea
+	si n1>50 entonces
+	mientras n1>50 haga
+		n1<-n1-2
+		Escriba "El valor va en: ",n1
+		llamar nueva_linea
+	fin mientras
+	sino
+		escriba "Coloque un numero mayor a 50: "
+		lea n1
+	mientras n1>50 haga
+		n1<-n1-2
+		Escriba "El valor va en: ",n1
+		llamar nueva_linea
+	fin mientras
+	fin si
+fin

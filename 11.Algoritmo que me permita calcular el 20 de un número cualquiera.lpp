@@ -1,0 +1,16 @@
+real numero,menos
+
+inicio
+Escriba "Averigue el 20% de un numero"
+llamar nueva_linea
+llamar nueva_linea
+Escriba "Ingrese un numero cualquiera: "
+lea numero
+
+menos<-numero*0.20
+llamar nueva_linea
+escriba "El 20% de ",numero," es: ",menos
+
+
+
+fin

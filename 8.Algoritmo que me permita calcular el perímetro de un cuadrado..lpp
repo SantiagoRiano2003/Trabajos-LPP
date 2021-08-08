@@ -1,0 +1,13 @@
+real lado,perimetro
+inicio
+
+escriba "				Para calcular el perimetro ponga el dato de un lado del cuadrado"
+llamar nueva_linea
+llamar nueva_linea
+escriba "Ingrese los centimetros del lado del cuadrado: "
+lea lado
+perimetro<-lado+lado+lado+lado
+llamar nueva_linea
+escriba "El perimetro es: ",perimetro
+
+fin

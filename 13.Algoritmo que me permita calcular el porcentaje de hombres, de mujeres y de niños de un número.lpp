@@ -1,0 +1,29 @@
+real mujeres,hombres,ninos,total,porcentajehombres,porcentajemujeres,porcentajeninos,todos
+
+inicio
+
+escriba "					Porcentaje de hombres,mujeres y ninos"
+llamar nueva_linea
+llamar nueva_linea
+escriba "Digite el numero de mujeres: "
+lea mujeres
+escriba "Digite el numero de hombres: "
+lea hombres
+escriba "Digite el numero de ninos: "
+lea ninos
+escriba "Digite el numero de personas totales: "
+lea todos
+
+porcentajehombres<-(hombres/todos)*100
+porcentajemujeres<-(mujeres/todos)*100
+porcentajeninos<-(ninos/todos)*100
+
+llamar nueva_linea
+escriba "El porcentaje de hombres con respecto al total de personas es del: ",porcentajehombres,"%"
+llamar nueva_linea
+escriba "El porcentaje de mujeres con respecto al total de personas es del: ",porcentajemujeres,"%"
+llamar nueva_linea
+escriba "El porcentaje de ninos con respecto al total de personas es del: ",porcentajeninos,"%"
+llamar nueva_linea
+escriba "El numero de personas es: ",todos
+fin

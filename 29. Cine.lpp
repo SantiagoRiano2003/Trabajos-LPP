@@ -1,0 +1,108 @@
+caracter continuar,continuadelsi,x
+real edad,opcion
+entero palomitas
+inicio
+escriba "Bienvenido al cine"
+llamar nueva_linea
+repita
+		escriba "Ponga su edad: "
+		lea edad
+		llamar nueva_linea
+		si (edad>17) entonces
+		escriba "Ingrese al cine"
+		llamar nueva_linea
+		escriba "Seguro que es mayor de edad?: "
+		llamar nueva_linea
+		lea continuadelsi
+		mientras ((continuadelsi='S') o (continuadelsi='s')) haga
+		continuadelsi<-x
+		escriba "Definitivamente es mayor de edad e ingresa al cine de adultos"
+		llamar nueva_linea
+		fin mientras
+		sino
+		escriba "Usted es menor de edad entonces ingresara al cine para ninos"	
+		llamar nueva_linea
+		escriba "Seguro que es menor de edad? S-s/N-n: "	
+		lea continuadelsi
+		mientras ((continuadelsi='S') o (continuadelsi='s')) haga
+		continuadelsi<-x
+		escriba "Definitivamente es menor de edad e ingresara al cine para ninos"
+		llamar nueva_linea
+		fin mientras
+		fin si
+		llamar nueva_linea
+		escriba "Cual pelicula quiere ver?: "
+		llamar nueva_linea
+		escriba "Digite los siguientes numeros para entrar"
+		llamar nueva_linea
+		escriba "1.1 para Pelicula 1 "
+		llamar nueva_linea
+		escriba "2.2 para Pelicula 2 "
+		llamar nueva_linea
+		escriba "3.3 para Pelicula 3 "
+		llamar nueva_linea
+		escriba "4.4 para Pelicula 4 "
+		llamar nueva_linea
+		lea opcion
+		caso opcion
+		1.1: escriba "Selecciono pelicula 1"
+		llamar nueva_linea 
+			escriba "Quiere palomitas de maiz, ingrese 1 para si o 2 para no: "
+			lea palomitas
+			si palomitas<=1 entonces
+			para palomitas<-1 hasta 1 haga
+			escriba "Usted compro palomitas de maiz, que disfrute su pelicula"
+			llamar nueva_linea
+			fin para
+			sino
+			escriba "Usted NO compro palomitas de maiz, que disfrute su pelicula"
+			llamar nueva_linea
+			fin si
+		2.2: escriba "Selecciono pelicula 2"
+		llamar nueva_linea 
+			escriba "Quiere palomitas de maiz, ingrese 1 para si o 2 para no: "
+			lea palomitas
+			si palomitas<=1 entonces
+			para palomitas<-1 hasta 1 haga
+			escriba "Usted compro palomitas de maiz, que disfrute su pelicula"
+			llamar nueva_linea
+			fin para
+			sino
+			escriba "Usted NO compro palomitas de maiz, que disfrute su pelicula"
+			llamar nueva_linea
+			fin si
+		3.3: escriba "Selecciono pelicula 3"
+		llamar nueva_linea 
+			escriba "Quiere palomitas de maiz, ingrese 1 para si o 2 para no: "
+			lea palomitas
+			si palomitas<=1 entonces
+			para palomitas<-1 hasta 1 haga
+			escriba "Usted compro palomitas de maiz, que disfrute su pelicula"
+			llamar nueva_linea
+			fin para
+			sino
+			escriba "Usted NO compro palomitas de maiz, que disfrute su pelicula"
+			llamar nueva_linea
+			fin si
+		4.4: escriba "Selecciono pelicula 4"
+		llamar nueva_linea 
+			escriba "Quiere palomitas de maiz, ingrese 1 para si o 2 para no: "
+			lea palomitas
+			si palomitas<=1 entonces
+			para palomitas<-1 hasta 1 haga
+			escriba "Usted compro palomitas de maiz, que disfrute su pelicula"
+			llamar nueva_linea
+			fin para
+			sino
+			escriba "Usted NO compro palomitas de maiz, que disfrute su pelicula"
+			llamar nueva_linea
+			fin si
+		sino: escriba "Valor erroneo"
+			fin caso
+			escriba "Quiere ver otra pelicula? S-s/N-n: "
+lea continuar
+hasta (continuar='N') o	(continuar='n')	
+	llamar nueva_linea
+
+
+fin
