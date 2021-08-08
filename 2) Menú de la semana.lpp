@@ -1,0 +1,29 @@
+entero a
+caracter respuesta
+inicio
+  repita
+  escriba "Introduce un numero del 1 al 7 para escoger un dia de la semana: "
+  lea a
+        caso a
+        1: escriba "Usted escogio Lunes"
+		2: escriba "Usted escogio Martes"
+		3: escriba "Usted escogio Miercoles"
+		4: escriba "Usted escogio Jueves"
+		5: escriba "Usted escogio Viernes"
+		6: escriba "Usted escogio Sabado"
+		7: escriba "Usted escogio Domingo"  
+    sino:
+    escriba "Dato no valido"
+    fin caso
+    llamar nueva_linea
+    repita
+    llamar nueva_linea
+   	 escriba "Desea repetir el proceso S/N?"
+				llamar nueva_linea
+				llamar nueva_linea
+				lea respuesta
+				hasta ((respuesta = 'S') o (respuesta = 'N'))
+				hasta (respuesta = 'N')
+				escriba "Gracias por escoger, adios"
+  
+fin

@@ -1,0 +1,15 @@
+entero a,b
+caracter respuesta
+inicio
+escriba "Números impares de -10 hasta 10"
+llamar nueva_linea
+repita
+para a<-(-12) hasta 9 haga
+a<-a+1
+	escriba "El numero va en : ",a
+	llamar nueva_linea
+fin para
+escriba "Desea repetir el resultado? escriba S/N: "
+lea respuesta
+hasta (respuesta='N') (respuesta='n')
+fin

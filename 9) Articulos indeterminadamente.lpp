@@ -1,0 +1,19 @@
+entero a,b,d
+caracter z
+inicio
+a<-0
+z<-'s'
+mientras (z = 's') haga
+escriba "Ponga el precio del producto que va a comprar: $ "
+lea b
+llamar nueva_linea
+z<-'k'
+escriba "Tiene dinero para seguir comprando? s/n: "
+lea z
+
+a<-a+b
+
+fin mientras
+llamar nueva_linea
+escriba "Usted gasto un total de: ",a
+fin

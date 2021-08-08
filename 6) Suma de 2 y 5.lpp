@@ -1,0 +1,25 @@
+entero a,b,c
+inicio
+
+escriba "Ingrese un numero entre 2 y 5 para sumarlo: "
+llamar nueva_linea
+escriba "Digite el numero 1: "
+lea a
+llamar nueva_linea
+mientras (a<2) o (a>5) haga
+escriba "Digite de nuevo el numero:"
+lea a
+fin mientras
+
+llamar nueva_linea
+escriba "Digite el numero 2: "
+lea b
+mientras (b<2) o (b>5) haga
+escriba "Digite de nuevo el numero: "
+lea b
+fin mientras
+
+c<-a+b
+llamar nueva_linea
+escriba "El resultado es: ",c
+fin

@@ -1,0 +1,10 @@
+entero a,b
+inicio
+a<-(-5)
+escriba "Numeros de -5 hasta 10"
+llamar nueva_linea
+para a<-(-5) hasta 10 haga
+	escriba "El numero va en : ",a
+	llamar nueva_linea
+fin para
+fin

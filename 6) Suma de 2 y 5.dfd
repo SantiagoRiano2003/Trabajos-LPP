@@ -1,0 +1,63 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+45
+'Ingrese un numero entre 2 y 5 para sumarlo:'
+4
+1
+21
+'Digite el numero 1:'
+5
+1
+1
+a
+9
+1
+14
+(a<2) or (a>5)
+4
+1
+28
+'Digite de nuevo el numero:'
+5
+1
+1
+a
+11
+4
+1
+21
+'Digite el numero 2:'
+5
+1
+1
+b
+9
+1
+14
+(b<2) or (b>5)
+4
+1
+28
+'Digite de nuevo el numero:'
+5
+1
+1
+b
+11
+6
+1
+1
+c
+3
+a+b
+4
+1
+21
+'El resultado es: ',c
+1

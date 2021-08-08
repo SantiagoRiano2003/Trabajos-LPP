@@ -1,0 +1,20 @@
+arreglo [5] de entero numero
+entero m,n,a
+inicio
+a<-1
+m<-5
+para n<-1 hasta m haga
+escriba "Escriba los digitos para llenar el vector:"
+llamar nueva_linea
+escriba "Digite el numero ",a,":"
+llamar nueva_linea
+lea numero[n]
+a<-a+1
+fin para
+
+llamar nueva_linea
+para n<-1 hasta m haga
+escriba "El vector de ",m," contiene: ",numero [n]
+llamar nueva_linea
+fin para
+fin

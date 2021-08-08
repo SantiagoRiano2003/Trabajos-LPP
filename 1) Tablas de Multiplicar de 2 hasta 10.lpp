@@ -1,0 +1,21 @@
+entero a,b,c,d,e
+inicio
+a<-1
+b<-0
+c<-2
+d<-2
+e<-2
+escriba "Tablas de multiplicar de 2 hasta 10"
+llamar nueva_linea
+mientras (a<10) haga
+a<-a+1
+mientras (b<10) haga
+b<-b+1
+d<-a*b
+escriba a," por ",b," da ",d
+llamar nueva_linea
+fin mientras
+llamar nueva_linea
+b<-0
+fin mientras
+fin

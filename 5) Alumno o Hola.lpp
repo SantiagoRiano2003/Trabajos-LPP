@@ -1,0 +1,27 @@
+caracter H,A,D
+entero b
+inicio
+
+escriba "Digite la letra --H-h-- para imprimir hola cinco veces"
+llamar nueva_linea
+escriba "o escriba la letra --A-a-- para que imprima alumno seis veces:"
+llamar nueva_linea
+lea D
+si (D ='H') o (D ='h') entonces
+para b<-1 hasta 5 haga
+escriba "Hola"
+llamar nueva_linea
+fin para
+Sino
+
+fin si
+
+
+si (D = 'A') o (D = 'a') entonces
+para b<-1 hasta 6 haga
+escriba "Alumno"
+llamar nueva_linea
+fin para
+fin si
+
+fin
